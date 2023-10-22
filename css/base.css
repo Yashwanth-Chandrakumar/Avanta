@@ -1,0 +1,70 @@
+
+:root {
+	--color-text: #000;
+	--color-bg:black;
+	--color-link: #000;
+	--color-link-hover: #000;
+	--page-padding: 1rem;
+	--columns: 15;
+	--cursor-blend-mode: color-burn;
+	--cursor-radius: 0;
+}
+
+.demo-7 {
+	--cursor-bg:white;
+	--gradient-text-1: #000;
+	--gradient-text-2: rgb(94 85 147);
+	--cursor-radius: 50%;
+	--cursor-blend-mode: difference;
+}
+
+
+body {
+	color: var(--color-text);
+	background-color:var(--color-bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 10vh;
+	z-index: 0;
+}
+
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
+}
+
+.cursor {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	mix-blend-mode: var(--cursor-blend-mode);
+	--size: calc(100vw / var(--columns));
+}
+
+.cursor__inner {
+	display: grid;
+	grid-template-columns: repeat(var(--columns), var(--size));
+}
+
+.cursor__inner-box {
+	width: var(--size);
+	height: var(--size);
+	background: var(--cursor-bg);
+	opacity: 0;
+	border-radius: var(--cursor-radius);
+	border: 2px solid white;
+}
+
+@media screen and (min-width: 53em) {
+	:root {
+		--columns: 30;
+		--page-padding: 2rem;
+	}
+	
+}
