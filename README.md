@@ -2,4 +2,4 @@
 
 check it out here:
 
-avanta.netlify.app
+https://avanta.netlify.app
