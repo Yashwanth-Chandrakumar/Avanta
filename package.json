@@ -1,0 +1,19 @@
+{
+  "name": "avanta-latest",
+  "version": "1.0.0",
+  "description": "An exploding objects effect inspired by [Kubrick Life Website: 3D Motion](https://dribbble.com/shots/6019111-Kubrick-Life-Website-3D-Motion).",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "three": "^0.158.0"
+  }
+}
