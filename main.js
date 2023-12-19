@@ -1,3 +1,17 @@
+const wrapper = document.getElementById("bubble-wrapper");
+
+const animateBubble = x => {  
+  const bubble = document.createElement("div");
+  
+  bubble.className = "bubble";
+  bubble.style.left = `${x}px`;
+  
+  wrapper.appendChild(bubble);
+  
+  setTimeout(() => wrapper.removeChild(bubble), 2000);
+}
+
+window.onmousemove = e => animateBubble(e.clientX);
 
 
 const button = document.getElementById("menu-toggle");
@@ -68,17 +82,15 @@ document.getElementById("myLink4").onclick = function() {
 
   }, 500);
 }
-
-if (window.screen.width >= 768) {
-  const left = document.getElementById("left-side");
+const left = document.getElementById("left-side");
 
 const handleMove = e => {
   left.style.width = `${e.clientX / window.innerWidth * 100}%`;
 }
 
-onmousemove = e => handleMove(e);
+document.onmousemove = e => handleMove(e);
 
-}
+document.ontouchmove = e => handleMove(e.touches[0]);
 
 // for mobile ***************************************************
 let paths = document.querySelector('.paths');
@@ -108,7 +120,7 @@ function updatePaths() {
   } else {
     var scrollpercentage = (scrollY - startScrollPos) / (scrollHeight - startScrollPos);
     console.log("scrollpercentage: ", scrollpercentage);
-    var drawLength = pathLengths * scrollpercentage*8;
+    var drawLength = pathLengths * scrollpercentage*30;
     console.log("drawLength: ", drawLength);
     paths.style.strokeDashoffset = pathLengths - drawLength;
     console.log("New strokeDashoffset: ", pathLengths - drawLength);
@@ -155,7 +167,7 @@ function updatePath() {
   } else {
     var scrollpercentage = (scrollY - startScrollPos) / (scrollHeight - startScrollPos);
     console.log("scrollpercentage: ", scrollpercentage);
-    var drawLength = pathLength * scrollpercentage*1.5;
+    var drawLength = pathLength * scrollpercentage*2;
     console.log("drawLength: ", drawLength);
     path.style.strokeDashoffset = pathLength - drawLength;
     console.log("New strokeDashoffset: ", pathLength - drawLength);
