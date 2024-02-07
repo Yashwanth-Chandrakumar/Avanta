@@ -1,3 +1,23 @@
+document.addEventListener("DOMContentLoaded", function() {
+  const searchInput = document.getElementById("search");
+  
+  searchInput.addEventListener("input", function() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const cards = document.querySelectorAll(".cardp");
+
+    cards.forEach(function(card) {
+      const cardId = card.id.toLowerCase();
+      if (cardId.includes(searchTerm)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  });
+});
+
+
+// footer******************
 const wrapper = document.getElementById("bubble-wrapper");
 
 const animateBubble = x => {  
@@ -85,12 +105,19 @@ document.getElementById("myLink4").onclick = function() {
 const left = document.getElementById("left-side");
 
 const handleMove = e => {
-  left.style.width = `${e.clientX / window.innerWidth * 100}%`;
+  if (window.innerWidth > 768) {
+    left.style.width = `${e.clientX / window.innerWidth * 100}%`;
+  }
 }
 
 document.onmousemove = e => handleMove(e);
 
-document.ontouchmove = e => handleMove(e.touches[0]);
+document.ontouchmove = e => {
+  if (window.innerWidth > 768) {
+    handleMove(e.touches[0]);
+  }
+};
+
 
 // for mobile ***************************************************
 let paths = document.querySelector('.paths');
