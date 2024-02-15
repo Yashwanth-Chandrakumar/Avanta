@@ -90,18 +90,18 @@ document.getElementById("myLink3").onclick = function() {
 
   }, 500);
 }
-document.getElementById("myLink4").onclick = function() {
-  toggle();
-  setTimeout(function() {
-    const aboutElement = document.getElementById("org");
-    aboutElement.scrollIntoView({
-    behavior: "smooth",
-    block: "start", // Vertical alignment: "start", "center", "end", or "nearest"
-    inline: "nearest" // Horizontal alignment: "start", "center", "end", or "nearest"
-  });
+// document.getElementById("myLink4").onclick = function() {
+//   toggle();
+//   setTimeout(function() {
+//     const aboutElement = document.getElementById("org");
+//     aboutElement.scrollIntoView({
+//     behavior: "smooth",
+//     block: "start", // Vertical alignment: "start", "center", "end", or "nearest"
+//     inline: "nearest" // Horizontal alignment: "start", "center", "end", or "nearest"
+//   });
 
-  }, 500);
-}
+//   }, 500);
+// }
 const left = document.getElementById("left-side");
 
 const handleMove = e => {
@@ -194,7 +194,7 @@ function updatePath() {
   } else {
     var scrollpercentage = (scrollY - startScrollPos) / (scrollHeight - startScrollPos);
     console.log("scrollpercentage: ", scrollpercentage);
-    var drawLength = pathLength * scrollpercentage*2;
+    var drawLength = pathLength * scrollpercentage*3;
     console.log("drawLength: ", drawLength);
     path.style.strokeDashoffset = pathLength - drawLength;
     console.log("New strokeDashoffset: ", pathLength - drawLength);

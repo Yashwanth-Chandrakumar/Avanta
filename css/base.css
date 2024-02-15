@@ -1,3 +1,6 @@
+@import url('https://db.onlinewebfonts.com/c/8fd7492c2947e24dce7208e4c48481b5?family=Coldsmith+W00+Regular');
+
+
 article,
 aside,
 details,
@@ -446,9 +449,9 @@ body.menu-toggled>#menu>#menu-toggle>#menu-toggle-label>.word:nth-of-type(2) {
 }
 
 body.menu-toggled>#menu>#menu-gradient {
-	height: 200vmax;
+	height: 150vmax;
 	opacity: 1;
-	transform: translate3d(-50%, -50%, 0px);
+	transform: translate3d(-50%, -47%, 0px);
 	transition: height 600ms cubic-bezier(.58, .2, .62, .93),
 		width 600ms cubic-bezier(.58, .2, .62, .93),
 		transform 600ms cubic-bezier(.58, .2, .62, .93),
@@ -457,11 +460,11 @@ body.menu-toggled>#menu>#menu-gradient {
 }
 
 body.menu-toggled>#menu>#menu-gradient-blur {
-	opacity: 1;
+	opacity: 0.5;
 }
 
 body.menu-toggled>#menu>#menu-arcs-wrapper {
-	opacity: 1;
+	opacity: 0.5;
 	transform: scale(1);
 	transition: transform 600ms cubic-bezier(.16, .68, .25, .83),
 		opacity 600ms cubic-bezier(.87, .12, .92, .39);
@@ -699,7 +702,7 @@ body.menu-toggled>#menu>#menu-links>.link:nth-of-type(5) {
 
 #menu>#menu-links>.link>.label {
 	color: white;
-	font-size: 2em;
+	font-size: 2.5em;
 	transition: transform 250ms;
 }
 
@@ -777,21 +780,7 @@ body.menu-toggled>#menu>#menu-links>.link:nth-of-type(5) {
 	}
 }
 
-/* -- YouTube Link Styles -- */
 
-body.menu-toggled>.meta-link {
-	background-color: rgba(255, 255, 255, 0.05);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-body.menu-toggled>.meta-link:hover {
-	background-color: rgba(255, 255, 255, 0.1);
-	border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-body.menu-toggled>.meta-link>span {
-	color: white;
-}
 
 
 .content__location {
@@ -803,9 +792,10 @@ body.menu-toggled>.meta-link>span {
 }
 
 .content__title {
-	font-weight: 800;
-	font-family: 'Audiowide', cursive;
-	font-size: 9vw;
+	/* font-weight: 800; */
+	/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+	/* font-size: 9vw; */
+	color: red;
 	margin: 0;
 	padding-top: 5rem;
 }
@@ -813,8 +803,8 @@ body.menu-toggled>.meta-link>span {
 .mar {
 
 	font-family: Arial, sans-serif;
-	font-size: 70px;
-	font-family: 'Audiowide', cursive;
+	font-size: 50px;
+
 	background: transparent;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -832,9 +822,9 @@ body.menu-toggled>.meta-link>span {
 }
 
 .js .content__item .content__title {
-	font-family: titling-gothic-fb-narrow, sans-serif;
 	font-weight: 800;
-	font-size: 10vw;
+	color: red;
+	font-size: 9vw;
 }
 
 .content__title span {
@@ -842,25 +832,35 @@ body.menu-toggled>.meta-link>span {
 
 }
 
-#text-front {
-	margin-top: -5rem;
-	font-family: "Audiowide", cursive;
-	position: absolute;
-	text-align: center;
-	font-size: clamp(24px, 20vw, 200px);
-	text-transform: uppercase;
-	font-weight: 800;
-	letter-spacing: 10px;
-	line-height: 0.8;
+.land-img {
+	opacity: 0.9;
+	height: 250px;
+	width: 1000px
 }
 
+@media screen and (max-width:768px) {
+	.land-img {
+		opacity: 1;
+		height: 100px;
+		width: 400px
+	}
+}
 
 #text-front {
-	font-family: titling-gothic-fb-narrow, sans-serif;
+	margin-top: -5rem;
+	font-family: "Permanent Marker", cursive;
+	position: absolute;
+	text-align: center;
+	font-size: 10px;
+	text-transform: uppercase;
+	/* font-weight: 800; */
+	letter-spacing: 10px;
+	line-height: 0.8;
 	color: var(--headline-color);
 	-webkit-text-stroke: 2px var(--headline-color);
 	z-index: 4;
 }
+
 
 .content__date {
 	padding-top: 10px;
@@ -897,13 +897,13 @@ body.menu-toggled>.meta-link>span {
 }
 
 .content__inner-item:nth-child(3n-1) {
-	font-family: titling-gothic-fb-narrow, sans-serif;
+	/* font-family: titling-gothic-fb-narrow, sans-serif; */
 	font-weight: 100;
 	text-transform: uppercase;
 }
 
 .content__inner-item:nth-child(3n) {
-	font-family: titling-gothic-fb-extended, sans-serif;
+	/* font-family: titling-gothic-fb-extended, sans-serif; */
 	font-weight: 200;
 }
 
@@ -915,7 +915,7 @@ body.menu-toggled>.meta-link>span {
 	color: var(--color-text);
 	cursor: pointer;
 	font-size: 1.25rem;
-	font-family: titling-gothic-fb-wide, sans-serif;
+	/* font-family: titling-gothic-fb-wide, sans-serif; */
 	font-weight: 700;
 	position: relative;
 }
@@ -1047,7 +1047,7 @@ body.menu-toggled>.meta-link>span {
 	margin-top: 100vh;
 	padding-top: 0;
 	position: relative;
-	height: auto;
+	height: 100vh;
 
 	display: flex;
 	flex-direction: column;
@@ -1071,7 +1071,7 @@ body::before {
 	height: 16px;
 	width: 16px;
 	border-radius: 24px;
-	background-color: rgb(208, 226, 73);
+	background-color: mediumslateblue;
 	position: fixed;
 	pointer-events: none;
 	z-index: 99;
@@ -1166,7 +1166,8 @@ body::before {
 }
 
 .events {
-	height: auto;
+	margin-top: 100vh;
+	height: 100vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -1187,7 +1188,7 @@ body::before {
 }
 
 .button {
-	width: 15%;
+	width: 20%;
 	position: relative;
 	height: 22.5%;
 	background-color: rgb(16 16 16);
@@ -1213,10 +1214,10 @@ body::before {
 
 .button:after {
 	content: "";
-	height: 30px;
-	width: 3px;
+	height: 40px;
+	width: 5px;
 	position: absolute;
-	right: -1px;
+	right: 0px;
 	top: 85%;
 	transition: top, opacity;
 	transition-duration: 600ms;
@@ -1291,6 +1292,17 @@ body::before {
 .card-content>p {
 	color: rgb(255 255 255 / 75%);
 	font-size: 2vw;
+	margin-top: 0;
+}
+
+.card-content>p>span {
+	font-size: 1.2vw;
+}
+
+@media screen and (max-width:768px) {
+	.card-content>p>span {
+		font-size: 3vw;
+	}
 }
 
 .button-content> :is(h1, h3, p) {
@@ -1561,6 +1573,59 @@ body::before {
 	justify-content: space-evenly;
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
+.scroll-downs {
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	width: 34px;
+	height: 55px;
+}
+
+.mousey {
+	width: 3px;
+	padding: 10px 15px;
+	height: 35px;
+	border: 3.5px solid mediumslateblue;
+	border-radius: 25px;
+	opacity: 0.75;
+	box-sizing: content-box;
+}
+
+.scroller {
+	width: 5px;
+	height: 10px;
+	border-radius: 25%;
+	background-color: white;
+	animation-name: scroll;
+	animation-duration: 2.2s;
+	animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+	animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateY(15px);
+		opacity: 0;
+	}
+}
+
 .event-name {
 	/* font-size: 1.3vw; */
 	font-weight: 600;
@@ -1629,6 +1694,8 @@ body::before {
 	.cardp {
 		height: 350px;
 	}
+
+
 }
 
 .cardp:before {
@@ -1658,9 +1725,94 @@ body::before {
 	transition: transform calc(var(--d) * 2) var(--e);
 }
 
-.cardp:before {
-	background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+.cardp:nth-child(18):before {
+	background-image: url("../img/carta.webp");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
 }
+
+.cardp:nth-child(19):before {
+	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.10\ AM.webp");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(20):before {
+	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.13\ AM.webp");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(21):before {
+	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.12\ AM\ \(1\).webp");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(22):before {
+	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.11\ AM.webp");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(23):before {
+	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.12\ AM.webp");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(24):before {
+	background-image: url("../img/IT\ -\ Brainstorm.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(25):before {
+	background-image: url("../img/IT\ -\ UI_UX\ Design.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(27):before {
+	background-image: url("../img/IT\ -\ E-Sports.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(28):before {
+	background-image: url("../img/IT\ -\ Scavenger\ Hunt.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(29):before {
+	background-image: url("../img/IT\ -\ Web3\ immersion.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
 
 .contentp {
 	position: relative;
@@ -1771,12 +1923,21 @@ body::before {
 		padding-left: 1rem;
 	}
 
+	.scroll-downs {
+		display: none;
+	}
+
 	.sponsor {
 		margin-left: 2rem;
 	}
 
 	.grid-container {
 		margin-left: 2rem;
+	}
+
+	.events {
+		margin-top: 0;
+		height: 120vh;
 	}
 
 	.events-nav {
@@ -1865,6 +2026,7 @@ body::before {
 @media screen and (max-width:768px) {
 
 	.timeline {
+		margin-top: -30vh;
 		margin-left: 0rem;
 		height: 100vh;
 	}
@@ -1974,6 +2136,7 @@ body::before {
 
 .cell>h1 {
 	position: absolute;
+
 	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%)
@@ -2001,6 +2164,7 @@ body::before {
 .cp {
 	margin-top: 0rem;
 	font-size: var(--h2-font-size);
+	font-family: "Permanent Marker", cursive;
 }
 
 @media (max-width: 768px) {
@@ -2203,8 +2367,9 @@ body::before {
 #footer {
 	border-top: 1px solid rgba(255, 255, 255, 0.25);
 	bottom: 0px;
-	position: absolute;
-	top: 870vh;
+	position: relative;
+	height: 50vh;
+	/* top: 870vh; */
 	width: 100%;
 }
 
@@ -2241,6 +2406,12 @@ body::before {
 
 .footer-section-links>a:hover {
 	text-decoration: underline;
+}
+
+.footer-section:first-child {
+	justify-content: center;
+	align-items: center;
+	font-size: var(--h2-font-size);
 }
 
 @media(max-width: 900px) {
@@ -2280,11 +2451,20 @@ body::before {
 		padding: 2rem;
 	}
 
+	.footer-section {
+		margin-left: 2rem;
+	}
+
 	.footer-section-title {
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 
 	.footer-section-links>a {
-		font-size: 0.8rem;
+		font-size: 1.1rem;
 	}
+}
+
+.contact-icon {
+	display: flex;
+	gap: 10px;
 }
