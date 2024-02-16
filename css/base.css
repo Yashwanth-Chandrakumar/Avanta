@@ -1574,7 +1574,17 @@ body::before {
 }
 
 ::-webkit-scrollbar {
-	display: none;
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: black;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: mediumslateblue;
+	border-radius: 5px;
 }
 
 .scroll-downs {
