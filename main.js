@@ -18,20 +18,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // footer******************
-const wrapper = document.getElementById("bubble-wrapper");
+// const wrapper = document.getElementById("bubble-wrapper");
 
-const animateBubble = x => {  
-  const bubble = document.createElement("div");
+// const animateBubble = x => {  
+//   const bubble = document.createElement("div");
   
-  bubble.className = "bubble";
-  bubble.style.left = `${x}px`;
+//   bubble.className = "bubble";
+//   bubble.style.left = `${x}px`;
   
-  wrapper.appendChild(bubble);
+//   wrapper.appendChild(bubble);
   
-  setTimeout(() => wrapper.removeChild(bubble), 2000);
-}
+//   setTimeout(() => wrapper.removeChild(bubble), 2000);
+// }
 
-window.onmousemove = e => animateBubble(e.clientX);
+// window.onmousemove = e => animateBubble(e.clientX);
 
 
 const button = document.getElementById("menu-toggle");
@@ -102,21 +102,16 @@ document.getElementById("myLink3").onclick = function() {
 
 //   }, 500);
 // }
+
 const left = document.getElementById("left-side");
 
 const handleMove = e => {
-  if (window.innerWidth > 768) {
-    left.style.width = `${e.clientX / window.innerWidth * 100}%`;
-  }
+  left.style.width = `${e.clientX / window.innerWidth * 100}%`;
 }
 
 document.onmousemove = e => handleMove(e);
 
-document.ontouchmove = e => {
-  if (window.innerWidth > 768) {
-    handleMove(e.touches[0]);
-  }
-};
+document.ontouchmove = e => handleMove(e.touches[0]);
 
 
 // for mobile ***************************************************
