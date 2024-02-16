@@ -15,6 +15,26 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+document.querySelectorAll('.filtem').forEach(function(button) {
+  button.addEventListener('click', function() {
+      const filterName = this.textContent.trim();
+      const gridItems = document.querySelectorAll('.cardp');
+
+      gridItems.forEach(function(item) {
+          if (filterName === 'All' || item.classList.contains(filterName.toLowerCase())) {
+              item.style.display = 'block';
+          } else {
+              item.style.display = 'none';
+          }
+      });
+  });
+});
+
+document.querySelectorAll(".btnp").forEach(function(btn) {
+  btn.addEventListener('click', function() {
+      window.open('https://docs.google.com/forms/d/1wJd1pNkCv69zNEJIFCpuYQuntKMIzpFkhjq3m2ElR20/viewform?edit_requested=true', '_blank');
+  });
+});
 
 
 // footer******************
