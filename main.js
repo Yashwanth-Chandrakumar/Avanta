@@ -17,11 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.querySelectorAll('.filtem').forEach(function(button) {
   button.addEventListener('click', function() {
-      const filterName = this.textContent.trim();
+      const filterName = this.textContent.trim().toLowerCase();
       const gridItems = document.querySelectorAll('.cardp');
 
       gridItems.forEach(function(item) {
-          if (filterName === 'All' || item.classList.contains(filterName.toLowerCase())) {
+          const classes = item.id.split(' ');
+          if (filterName === 'all' || classes.includes(filterName)) {
               item.style.display = 'block';
           } else {
               item.style.display = 'none';
@@ -29,6 +30,7 @@ document.querySelectorAll('.filtem').forEach(function(button) {
       });
   });
 });
+
 
 document.querySelectorAll(".btnp").forEach(function(btn) {
   btn.addEventListener('click', function() {
