@@ -1584,7 +1584,11 @@ body::before {
 
 ::-webkit-scrollbar-thumb {
 	background-color: mediumslateblue;
-	border-radius: 5px;
+	border-radius: 6px;
+}
+
+.event-list::-webkit-scrollbar-track {
+	border: 2px solid white;
 }
 
 .scroll-downs {
