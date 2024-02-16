@@ -2162,6 +2162,7 @@ body::before {
 
 .side-img {
 	animation: rotateAnimation 2s linear infinite;
+	margin-bottom: 0;
 
 }
 
@@ -2180,6 +2181,7 @@ body::before {
 	font-size: var(--h2-font-size);
 	font-family: "Permanent Marker", cursive;
 }
+
 
 @media (max-width: 768px) {
 	#left-side {
@@ -2222,6 +2224,7 @@ body::before {
 	}
 
 	.cp {
+		font-size: 5vw;
 		margin-top: -2rem;
 	}
 }

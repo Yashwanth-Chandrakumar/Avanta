@@ -131,10 +131,10 @@ const handleMove = e => {
   left.style.width = `${e.clientX / window.innerWidth * 100}%`;
 }
 
-document.onmousemove = e => handleMove(e);
-
-document.ontouchmove = e => handleMove(e.touches[0]);
-
+if (window.innerWidth > 768) {
+  document.onmousemove = e => handleMove(e);
+  document.ontouchmove = e => handleMove(e.touches[0]);
+}
 
 // for mobile ***************************************************
 let paths = document.querySelector('.paths');
