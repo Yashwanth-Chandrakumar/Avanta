@@ -1739,56 +1739,192 @@ body::before {
 	transition: transform calc(var(--d) * 2) var(--e);
 }
 
+.cardp:nth-child(1):before {
+	background-image: url("../img/_a50cb478-3072-43fa-b762-9ef34aeaf916.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(2):before {
+	background-image: url("../img/_981d0d94-5ad8-4dbe-bbc6-b2df78d100e6.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(3):before {
+	background-image: url("../img/_ac752eba-0667-46e4-81c0-fb6b57387518.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(4):before {
+	background-image: url("../img/_15da2490-c525-4974-bd5f-973caa52fbd6.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(5):before {
+	background-image: url("../img/_b0b59913-1a61-4546-87a3-c25ad27eb38a.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(6):before {
+	background-image: url("../img/_b936f3e8-6b4f-4b95-9a65-1572957e51b0.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(7):before {
+	background-image: url("../img/_fc422fe7-b2cf-45ee-ade4-b6840b69913f.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(8):before {
+	background-image: url("../img/_605230e5-7221-47f5-a60c-34379e79ab8d.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(9):before {
+	background-image: url("../img/abc-shark-tank.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(10):before {
+	background-image: url("../img/_6259463f-2a44-46ad-89cd-f6032747d1bb.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(11):before {
+	background-image: url("../img/_9dc1cdb6-8e07-489a-8f29-6e2b7e3a0d43.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(12):before {
+	background-image: url("../img/_64dcf924-520b-4196-be9c-1612eb69334e.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(13):before {
+	background-image: url("../img/_9bcaf85c-22e4-4ea7-9350-8cf448ebe5be.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(14):before {
+	background-image: url("../img/_6909c64e-d8b0-4ce3-8f34-4632074a8504.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(15):before {
+	background-image: url("../img/_ef5a44b6-7c81-4264-90cd-96e0b2cfce1f.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(16):before {
+	background-image: url("../img/_85a5cf5f-4503-4b34-a9fc-e6dca95c9c77.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(17):before {
+	background-image: url("../img/_050f8f4e-d983-42d1-80e4-3b81295fa1cf.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
 .cardp:nth-child(18):before {
-	background-image: url("../img/carta.webp");
-	background-size: contain;
+	background-image: url("../img/_c4702e52-7fee-45ab-b080-f190f7095048.webp");
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
 
 .cardp:nth-child(19):before {
-	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.10\ AM.webp");
-	background-size: contain;
+	background-image: url("../img/_adfa3e31-442a-4a53-ba5b-5594b3d1c732.webp");
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
 
 .cardp:nth-child(20):before {
-	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.13\ AM.webp");
-	background-size: contain;
+	background-image: url("../img/_f733105a-9c28-4ff7-8c73-a1bdddc27dc9.webp");
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
 
 .cardp:nth-child(21):before {
-	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.12\ AM\ \(1\).webp");
-	background-size: contain;
+	background-image: url("../img/_7c4b25a4-25a8-49b7-8d2b-8b40ae211be4.webp");
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
 
 .cardp:nth-child(22):before {
-	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.11\ AM.webp");
-	background-size: contain;
+	background-image: url("../img/_e9ab54f4-9032-4530-8afc-cc5088bbb1b0.webp");
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
 
 .cardp:nth-child(23):before {
-	background-image: url("../img/WhatsApp\ Image\ 2024-02-08\ at\ 11.46.12\ AM.webp");
-	background-size: contain;
+	background-image: url("../img/_283e3706-5fd7-4494-a7e2-784611006b9a.webp");
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
 
 .cardp:nth-child(24):before {
-	background-image: url("../img/IT\ -\ Brainstorm.webp");
+	background-image: url("../img/_4aa5cf40-65d4-4761-9a79-643468122334.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1796,7 +1932,15 @@ body::before {
 }
 
 .cardp:nth-child(25):before {
-	background-image: url("../img/IT\ -\ UI_UX\ Design.webp");
+	background-image: url("../img/_25748801-3bdd-4968-81cb-314b635491b1.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(26):before {
+	background-image: url("../img/_4c691cdd-21fe-4e92-b431-b8e60fc4ae04.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1804,15 +1948,16 @@ body::before {
 }
 
 .cardp:nth-child(27):before {
-	background-image: url("../img/IT\ -\ E-Sports.webp");
+	background-image: url("../img/esport\ poster.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
 
+
 .cardp:nth-child(28):before {
-	background-image: url("../img/IT\ -\ Scavenger\ Hunt.webp");
+	background-image: url("../img/_eba4a0ce-a1d6-4ddb-a092-def0a44b44c7.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1820,11 +1965,162 @@ body::before {
 }
 
 .cardp:nth-child(29):before {
-	background-image: url("../img/IT\ -\ Web3\ immersion.webp");
+	background-image: url("../img/_033b7d3e-b396-44fe-8e87-9ce6283c4c4c.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
+}
+
+.cardp:nth-child(30):before {
+	background-image: url("../img/_b4147b25-72dc-4c65-92a8-cd259b4ce0e9.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(31):before {
+	background-image: url("../img/_7f44e867-6de3-4a51-8f1f-2150b08c2bd3.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(32):before {
+	background-image: url("../img/_a3f693de-64fc-4b17-a29c-80e0ac70477a.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(33):before {
+	background-image: url("../img/_73f38331-b6de-4e71-aa95-8754b6be9ebd.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(34):before {
+	background-image: url("../img/_cc5e6843-09bd-4814-b7e9-e9e758294883.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(35):before {
+	background-image: url("../img/_fbdc247a-156b-444d-918f-e6f3c1083468.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(36):before {
+	background-image: url("../img/_ae7c3363-9f2b-4791-8005-4c8c91561f30.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(37):before {
+	background-image: url("../img/_4c691cdd-21fe-4e92-b431-b8e60fc4ae04.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(38):before {
+	background-image: url("../img/ADZAP.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(39):before {
+	background-image: url("../img/BAND-PLAY.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(40):before {
+	background-image: url("../img/_988131b1-d5ce-44ad-ad73-3e044f233cab.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(41):before {
+	background-image: url("../img/TECHNICAL\ TRIVIA.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(42):before {
+	background-image: url("../img/CINEPHILIA.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(43):before {
+	background-image: url("../img/BRIDGE\ BUILDING.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(44):before {
+	background-image: url("../img/_2568c69a-1b7e-4297-bd14-d12876832473.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(45):before {
+	background-image: url("../img/_024df9ee-002e-4c7d-8a40-77989aebb104.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(46):before {
+	background-image: url("../img/BEST\ MANAGER.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(47):before {
+	background-image: url("../img/ADZAP.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.cardp:nth-child(48):before {
+	background-image: url("../img/_d7e6e7cf-955b-4a7c-9df5-359b433577c0.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
