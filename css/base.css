@@ -1164,7 +1164,7 @@ body::before {
 
 .events {
 	margin-top: 100vh;
-	height: 100vh;
+	height: 110vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -2259,6 +2259,7 @@ body::before {
 
 	.events {
 		margin-top: 0;
+		margin-bottom: 2rem;
 		height: 120vh;
 	}
 
