@@ -1426,7 +1426,7 @@ body::before {
 	background-color: transparent;
 	display: flex;
 	flex-direction: row;
-	gap: 1rem;
+	gap: 1.8rem;
 	padding: 2rem;
 }
 
