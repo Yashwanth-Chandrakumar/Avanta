@@ -1164,7 +1164,7 @@ body::before {
 
 .events {
 	margin-top: 100vh;
-	height: 110vh;
+	height: auto;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -2259,8 +2259,8 @@ body::before {
 
 	.events {
 		margin-top: 0;
-		margin-bottom: 2rem;
-		height: 120vh;
+		height: auto;
+		margin-top: 2rem;
 	}
 
 	.events-nav {
@@ -2349,9 +2349,10 @@ body::before {
 @media screen and (max-width:768px) {
 
 	.timeline {
-		margin-top: -30vh;
+		margin-top: 0;
 		margin-left: 0rem;
-		height: 100vh;
+		height: auto;
+		margin-bottom: 4rem;
 	}
 
 	.timeline>h1 {
