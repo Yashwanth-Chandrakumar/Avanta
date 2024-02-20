@@ -82,11 +82,7 @@
     
     <main>
       <div class="circle"></div>
-      <!-- <div class="snackbar" id="toast">
-        <button onclick="toast()"><i class="fa-solid fa-xmark" style="color: white; position: absolute;top:20%;left:3%;cursor: pointer;"></i></button>
-        <span>For updates follow us on Instagram and Twitter
-        </span>
-      </div> -->
+      <div id="snackbar"><button class="btn btn-lg" onclick="myFunction()">x</button>For updates follow us on Instagram and Twitter </div>
       <div class="fixed-social">
         
         <a href="https://www.instagram.com/avantaa_skct/" aria-label="instagram" target="_blank"><i class="social fa fa-instagram hidden" style="font-size:30px;color:whitesmoke;" ></i></a>
@@ -1162,7 +1158,15 @@
         e.preventDefault(); // Prevent the anchor tag from navigating
         modal.style.display = "block";
       };
+      function myFunction() {
+  // Get the snackbar DIV
+        var x = document.getElementById("snackbar")
 
+        // Add the "show" class to DIV
+        x.className = "hide";
+
+        // After 3 seconds, remove the show class from DIV
+      }
       span.onclick = function () {
         modal.style.display = "none";
       };
