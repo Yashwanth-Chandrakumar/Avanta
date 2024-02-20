@@ -2781,3 +2781,28 @@ body::before {
 	display: flex;
 	gap: 10px;
 }
+
+.fixed-social {
+	position: absolute;
+	display: flex;
+	/* width: 10%; */
+	padding: 1rem;
+	flex-direction: column;
+	z-index: 99;
+	gap: 1rem;
+	top: 40%;
+	margin-left: 2rem;
+	/* background-color: white; */
+	background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px,
+			transparent 1px);
+	background-position: 65% 50%;
+	background-size: 1.1rem 1.1rem;
+	background-color: rgb(16 16 16);
+	border-radius: 23px;
+}
+
+@media screen and (max-width:768px) {
+	.fixed-social {
+		top: 55%;
+	}
+}
