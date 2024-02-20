@@ -1,4 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("search");
   
   searchInput.addEventListener("input", function() {
