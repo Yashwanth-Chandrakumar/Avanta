@@ -167,7 +167,7 @@ function updatePaths() {
   } else {
     var scrollpercentage = (scrollY - startScrollPos) / (scrollHeight - startScrollPos);
     console.log("scrollpercentage: ", scrollpercentage);
-    var drawLength = pathLengths * scrollpercentage*30;
+    var drawLength = pathLengths * scrollpercentage*10;
     console.log("drawLength: ", drawLength);
     paths.style.strokeDashoffset = pathLengths - drawLength;
     console.log("New strokeDashoffset: ", pathLengths - drawLength);
@@ -214,7 +214,7 @@ function updatePath() {
   } else {
     var scrollpercentage = (scrollY - startScrollPos) / (scrollHeight - startScrollPos);
     console.log("scrollpercentage: ", scrollpercentage);
-    var drawLength = pathLength * scrollpercentage*3;
+    var drawLength = pathLength * scrollpercentage*1.5;
     console.log("drawLength: ", drawLength);
     path.style.strokeDashoffset = pathLength - drawLength;
     console.log("New strokeDashoffset: ", pathLength - drawLength);
