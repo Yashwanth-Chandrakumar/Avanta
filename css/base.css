@@ -1184,13 +1184,28 @@ body::before {
 	border-radius: 1.5rem;
 }
 
+@keyframes borderFlow {
+	0% {
+		border-color: rgba(212, 210, 210, 0.2);
+	}
+
+	50% {
+		border-color: mediumslateblue;
+	}
+
+	100% {
+		border-color: rgba(212, 210, 210, 0.2);
+	}
+}
+
 .button {
 	width: 20%;
 	position: relative;
 	height: 22.5%;
 	background-color: rgb(16 16 16);
-	border: 1px solid rgba(212, 210, 210, 0.2);
+	border: 3.5px solid rgba(212, 210, 210, 0.2);
 	border-radius: 1.5rem;
+	animation: borderFlow 1.5s infinite;
 }
 
 .card:after {
@@ -1211,11 +1226,11 @@ body::before {
 
 .button:after {
 	content: "";
-	height: 40px;
+	height: 30px;
 	width: 5px;
 	position: absolute;
 	right: 0px;
-	top: 85%;
+	top: 80%;
 	transition: top, opacity;
 	transition-duration: 600ms;
 	transition-timing-function: ease;
