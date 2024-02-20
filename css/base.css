@@ -2802,7 +2802,7 @@ body::before {
 	padding: 1rem;
 	flex-direction: column;
 	z-index: 99;
-	gap: 1rem;
+	gap: 2rem;
 	top: 40%;
 	margin-left: 2rem;
 	/* background-color: white; */
