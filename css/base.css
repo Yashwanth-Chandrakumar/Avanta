@@ -2793,11 +2793,7 @@ body::before {
 	top: 40%;
 	margin-left: 2rem;
 	/* background-color: white; */
-	background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px,
-			transparent 1px);
-	background-position: 65% 50%;
-	background-size: 1.1rem 1.1rem;
-	background-color: rgb(16 16 16);
+
 	border-radius: 23px;
 }
 
@@ -2812,17 +2808,14 @@ body::before {
 		display: flex;
 		/* width: 10%; */
 		padding: 1rem;
-		flex-direction: column;
+		/* flex-direction: column; */
 		z-index: 99;
 		gap: 1rem;
-		top: 60%;
+		top: 3.5%;
+		left: 70%;
 		margin-left: 2rem;
 		/* background-color: white; */
-		background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px,
-				transparent 1px);
-		background-position: 65% 50%;
-		background-size: 1.1rem 1.1rem;
-		background-color: rgb(16 16 16);
+
 		border-radius: 23px;
 	}
 
