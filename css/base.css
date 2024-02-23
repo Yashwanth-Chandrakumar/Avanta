@@ -1206,6 +1206,15 @@ body::before {
 	border: 3.5px solid rgba(212, 210, 210, 0.2);
 	border-radius: 1.5rem;
 	animation: borderFlow 1.5s infinite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+	.button {
+		width: calc(100% - 20rem);
+	}
 }
 
 .card:after {
@@ -1364,12 +1373,9 @@ body::before {
 		height: 2.5rem;
 	}
 
-	.button-content>p {
-		font-size: 1.8rem;
-	}
 
 	.button-content>h1 {
-		font-size: 1.8rem;
+		font-size: 1.3rem;
 	}
 }
 
