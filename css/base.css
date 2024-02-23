@@ -1551,6 +1551,8 @@ body::before {
 }
 
 @media screen and (max-width:768px) {
+
+
 	.event-modal {
 		flex-direction: column;
 		width: 100vh;
@@ -2823,6 +2825,10 @@ body::before {
 
 
 @media screen and (max-width:768px) {
+	#foot-img {
+		margin-left: -2rem;
+	}
+
 	.fixed-social-mobile {
 		position: absolute;
 		display: flex;
