@@ -70,7 +70,7 @@ button.onclick = () => toggle();
 document.getElementById("myLink").onclick = function() {
   toggle();
   setTimeout(function() {
-    const aboutElement = document.getElementById("left-side");
+    const aboutElement = document.getElementById("content");
     aboutElement.scrollIntoView({
     behavior: "smooth",
     block: "start", // Vertical alignment: "start", "center", "end", or "nearest"
@@ -82,7 +82,7 @@ document.getElementById("myLink").onclick = function() {
 document.getElementById("myLink1").onclick = function() {
   toggle();
   setTimeout(function() {
-    const aboutElement = document.getElementById("eventssect");
+    const aboutElement = document.getElementById("left-side");
     aboutElement.scrollIntoView({
     behavior: "smooth",
     block: "start", // Vertical alignment: "start", "center", "end", or "nearest"
@@ -94,7 +94,7 @@ document.getElementById("myLink1").onclick = function() {
 document.getElementById("myLink2").onclick = function() {
   toggle();
   setTimeout(function() {
-    const aboutElement = document.getElementById("timeline");
+    const aboutElement = document.getElementById("eventssect");
     aboutElement.scrollIntoView({
     behavior: "smooth",
     block: "start", // Vertical alignment: "start", "center", "end", or "nearest"
@@ -106,7 +106,7 @@ document.getElementById("myLink2").onclick = function() {
 document.getElementById("myLink3").onclick = function() {
   toggle();
   setTimeout(function() {
-    const aboutElement = document.getElementById("org");
+    const aboutElement = document.getElementById("timeline");
     aboutElement.scrollIntoView({
     behavior: "smooth",
     block: "start", // Vertical alignment: "start", "center", "end", or "nearest"
